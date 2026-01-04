@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.app {
+    max-width: 850px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #e0e0e0;
+    margin-bottom: 30px;
+}
+
+.card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 14px;
+    margin-bottom: 25px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+h2 {
+    margin-top: 0;
+    color: #4b2cc3;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+textarea {
+    resize: none;
+    height: 90px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.post {
+    background: linear-gradient(135deg, #fdfbfb, #ebedee);
+    padding: 15px;
+    margin-bottom: 12px;
+    border-left: 6px solid #667eea;
+    border-radius: 8px;
+}
+
+.post h3 {
+    margin: 0;
+    color: #333;
+}
+
+.post p {
+    margin-top: 6px;
+    color: #555;
+}
+
+.hidden {
+    display: none;
+}
+
+#loginMessage, #formMessage {
+    margin-top: 10px;
+    font-weight: bold;
+}

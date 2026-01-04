@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Secure Internship Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+    <h1>🔐 Secure Web Application</h1>
+    <p class="subtitle">Prepared Statements • Validation • User Roles</p>
+
+    <!-- LOGIN SECTION -->
+    <div class="card">
+        <h2>User Login</h2>
+
+        <select id="roleSelect">
+            <option value="">Select Role</option>
+            <option value="admin">Admin</option>
+            <option value="editor">Editor</option>
+            <option value="viewer">Viewer</option>
+        </select>
+
+        <button onclick="loginUser()">Login</button>
+        <p id="loginMessage"></p>
+    </div>
+
+    <!-- POST FORM -->
+    <div class="card hidden" id="postForm">
+        <h2>Create Post</h2>
+
+        <input type="text" id="title" placeholder="Post Title">
+        <textarea id="content" placeholder="Post Content"></textarea>
+
+        <button onclick="createPost()">Submit</button>
+        <p id="formMessage"></p>
+    </div>
+
+    <!-- POSTS -->
+    <div class="card">
+        <h2>Posts</h2>
+        <div id="postList"></div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
